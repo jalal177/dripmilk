@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+* {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	/*box-sizing: border-box;*/
+
+}
+
+body {
+	background-color: #f9f9f9;
+}
+
+header {
+	width: 100%;
+	/*height: 200vh;*/
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	background-color: #f9f9f9;
+}
+
+ul {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 0 25px 0;
+}
+
+li {
+	list-style: none;
+	text-decoration: none;
+}
+
+li a {
+	text-decoration: none;
+	color: #111;
+}
+
+.brand a {
+	font-weight: 600;
+	font-size: 30px;
+}
+
+/*content-----------------------------*/
+
+section {
+	width: 100%;
+}
+
+.container {
+	padding: 100px 70px 0 70px;
+	/*flex-wrap: wrap;*/
+}
+
+.prodak {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.tabel {
+	display: block;
+	width: 20%;
+	/*height: 370px;*/
+	/*position: relative;*/
+	background-color: grey;
+	padding: 10px 15px 22px 15px;
+	background-color: #fff;
+	margin-top: 30px;
+
+}
+
+.tabel img {
+	display: block;
+	margin: auto;
+	/*flex-wrap: wrap;*/
+}
+
+.tabel .text {
+	text-align: center;
+}
+.tabel .text .title {
+	color: #9b9b9b;
+}
+
+.tabel .text .harga {
+	background-color: #cde4ee;
+	display: inline-block;
+	padding: 5px 21px 5px 21px;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+
+/*footer---------*/
+
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: #c5c5c5;
+	padding: 20px 0 10px;
+	margin-top: 40px;
+	color: #fff;
+}
+
+/*HERO-------*/
+
+.hero {
+	width: 100%;
+	height: 80vh;
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+	.tabel {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.tabel {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.tabel {
+		width: 100%;
+	}
+
+	li a {
+		display: none;
+	}
+
+	.brand a {
+		display: block;
+	}
+
+}
+
