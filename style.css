@@ -63,15 +63,35 @@ section {
 }
 
 .container {
-	padding: 100px 70px 0 70px;
+	padding: 70px 70px 0 70px;
 	/*flex-wrap: wrap;*/
 }
 
+h2 {
+	text-align: center;
+}
+
+/*brand------------*/
+
+.brand {
+	width: 100%;
+	background-color: #fff;
+	/*padding-top: 80px;*/
+	padding: 100px 90px 100px 90px;
+	box-sizing: border-box;
+}
+
+.brand p {
+	text-align: center;
+}
+
+/*prodak------------*/
 .prodak {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
+
 
 .tabel {
 	display: block;
@@ -83,6 +103,10 @@ section {
 	background-color: #fff;
 	margin-top: 30px;
 
+}
+
+.tabel p {
+	font-size: 20px;
 }
 
 .tabel img {
@@ -142,8 +166,46 @@ footer {
 }
 
 
+/*CSS PRODUK ---------------*/
+.hero-produk {
+	width: 100%;
+	height: 100vh;
+	background-color: #f9f9f9 /*skyblue*/;
+}
+
+.container-produk {
+	width: 100%;
+	padding-top: 100px;
+}
+
+.gambar-produk {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 90px;
+	flex-wrap: wrap;
+}
+
+.gambar-produk .col {
+	background-color: #fff;
+	border-radius: 5%;
+}
+
+.gambar-produk .col img {
+	display: block;
+	margin: auto;
+}
+
+.gambar-produk .col .text {
+	text-align: center;
+}
+
+.col .text p {
+	font-weight: 600;
+}
 
 
+/*responsive*/
 @media screen and (max-width: 992px) {
 	.tabel {
 		width: 40%;
@@ -167,6 +229,11 @@ footer {
 
 	.brand a {
 		display: block;
+	}
+
+	/*produk*/
+	.gambar-produk .col {
+		width: 150px;
 	}
 
 }
