@@ -35,7 +35,7 @@ ul {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	padding: 18px 0 18px 0;
+	padding: 20px 0 20px 0;
 	float: right;
 }
 
@@ -169,7 +169,7 @@ footer {
 /*CSS PRODUK ---------------*/
 .hero-produk {
 	width: 100%;
-	height: 100vh;
+	/* height: 100vh; */
 	background-color: #f9f9f9 /*skyblue*/;
 }
 
@@ -258,12 +258,27 @@ footer {
 }
 
 .isi .isi-text {
-	padding: 70px;
+	padding: 70px 5px 70px 70px;
 	color: #fff;
 }
 
 .isi .isi-text h3 {
 	padding-bottom: 20px;
+}
+
+/* kontak----------------------- */
+
+.kontak {
+	width: 100%;
+}
+
+.kontak .col {
+	display: flex;
+	margin-top: 20px;
+}
+
+.kontak .col img {
+	width: 70px;
 }
 
 
@@ -299,6 +314,10 @@ footer {
 	.container-perusahaan {
 		padding: 0 ;
 	}
+
+	iframe {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -326,6 +345,10 @@ footer {
 
 	.container-perusahaan {
 		padding: 0 ;
+	}
+
+	iframe {
+		width: 100%;
 	}
 }
 
