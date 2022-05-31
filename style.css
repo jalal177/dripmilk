@@ -275,10 +275,24 @@ footer {
 .kontak .col {
 	display: flex;
 	margin-top: 20px;
+	align-items: center;
 }
 
 .kontak .col img {
 	width: 70px;
+	padding-right: 10px;
+}
+
+.banner {
+	width: 100%;
+	margin-top: 35px;
+}
+
+.banner img {
+	width: 500px;
+	display: block;
+	margin: auto;
+	padding-top: 17px;
 }
 
 
@@ -350,5 +364,13 @@ footer {
 	iframe {
 		width: 100%;
 	}
+
+	.banner img {
+		width: 300px;
+		display: block;
+		margin: auto;
+		padding-top: 17px;
+	}
+
 }
 
